@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <h1>Vue Router를 사용해 봅시다.</h1>
+    <h1>Vue-router Test</h1>
     <div id="nav">
-      <router-link to="/home">Home</router-link>
+      <router-link to="/home">Home</router-link> ㅣ
       <router-link to="/about">About</router-link>
     </div>
     <router-view />
