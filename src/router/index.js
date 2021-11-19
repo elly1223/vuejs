@@ -8,12 +8,11 @@ Vue.use(VueRouter);
 // const routes = [
 //     {
 //         path: "/home",
-//         component: Home
+//         component: () => import('../components/Home')
 //     },
 //     {
 //         path: "/about",
-//         name: "About",
-//         component: About
+//         component: () => import('../components/About')
 //     }
 // ];
 
@@ -21,9 +20,9 @@ const router = new VueRouter({
     routes: [
         {path: '/home', component: Home},
         {path: '/about', component: About},
-    ]
-    // mode: 'history',
-    // base: process.env.BASE_URL,
+    ],
+    mode: 'history',
+    base: process.env.BASE_URL,
     // routes
 })
 
