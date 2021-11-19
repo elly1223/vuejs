@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-npm install
+npm install --global @vue/cli
 ```
 
 ### Compiles and hot-reloads for development
